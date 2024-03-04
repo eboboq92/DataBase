@@ -20,9 +20,9 @@ INSERT INTO Genres_Artists (genre_id, artist_id) VALUES
 
 -- Вставка альбомов
 INSERT INTO Albums (album_id, release_year, album_name) VALUES
-(1, 'A Night at the Opera'),
-(2, '1989'),
-(3, 'DAMN.');
+(1, '2001', 'A Night at the Opera'),
+(2, '1989', '1989'),
+(3, '1980', 'DAMN.');
 
 -- Вставка связей между альбомами и исполнителями
 INSERT INTO Albums_Artists (album_id, artist_id) VALUES
@@ -54,5 +54,5 @@ INSERT INTO Compilations_Tracks (compilation_id, track_id) VALUES
 (3, 3), -- Hip-Hop Mix -> bemy self.
 (4, 4), -- Various Tracks -> myself by
 (1, 5), -- Best of Rock -> by myself by
-(2, 6); -- Pop Hits -> beemy
+(2, 6), -- Pop Hits -> beemy
 (2, 7); -- Pop Hits -> premyne
